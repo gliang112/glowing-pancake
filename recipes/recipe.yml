@@ -36,6 +36,21 @@ modules:
         - toolbox
         - yelp
 
+  - type: default-flatpaks
+    configurations:
+      - scope: user
+        install:
+          - com.brave.Browser
+          - com.github.tchx84.Flatseal
+          - com.mattjakeman.ExtensionManager
+          - com.ranfdev.DistroShelf
+          - com.rustdesk.RustDesk
+          - com.spotify.Client
+          - io.github.flattool.Warehouse
+          - io.missioncenter.MissionCenter
+          - org.cryptomator.Cryptomator
+          - org.mozilla.firefox
+
   - type: fonts
     fonts:
       nerd-fonts:
