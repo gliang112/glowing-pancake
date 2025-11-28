@@ -47,7 +47,6 @@ modules:
           - com.rustdesk.RustDesk
           - com.spotify.Client
           - io.github.flattool.Warehouse
-          - io.missioncenter.MissionCenter
           - org.cryptomator.Cryptomator
           - org.mozilla.firefox
 
