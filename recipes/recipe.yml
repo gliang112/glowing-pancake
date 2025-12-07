@@ -51,6 +51,13 @@ modules:
           - org.cryptomator.Cryptomator
           - org.mozilla.firefox
 
+  - type: script
+    snippets:
+      - "rm -r /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org"
+      - "rm -r /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com"
+      - "rm -r /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com"
+      - "rm -r /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com"
+
   - type: fonts
     fonts:
       nerd-fonts:
